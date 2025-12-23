@@ -1,11 +1,12 @@
 # 中国象棋项目Proj-Chinesechess
 ## 涵盖了基本的中国象棋逻辑和进阶功能
+## 开发者主页（按首字母排序）：John:*[John的主页](https://github.com/J0hNSt34nd)*  Mark:*[Mark的主页](https://github.com/Marklzs)*
 ### 未经允许严禁盗用代码！未经允许严禁盗用代码！未经允许严禁盗用代码！
 ### You mustn't plagiarize this code as your own work!!!
 
 ***
 
-:two_men_holding_hands:开发者 Developers：**John,Mark**  
+:two_men_holding_hands:开发者 Developers：**John,Mark（按首字母排序）**  
 :speech_balloon:Project更新日期 Latest Update Date：**2025/12/23**  
 :gift:包package：**7**  
 :gift:类class：**77**  
