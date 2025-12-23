@@ -1,0 +1,19 @@
+* {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #552E03;
+}
+
+.button {
+    -fx-background-radius: 100em;
+    -fx-padding: 8 48;
+    -fx-background-color: #654C2B;
+    -fx-text-fill: #FFE5C9;
+}
+
+.highlight {
+    -fx-background-color: #8F3B3B;
+}

@@ -1,0 +1,82 @@
+{
+  "userProfile" : {
+    "name" : "Mark",
+    "avatar" : "male_1.png"
+  },
+  "hostName" : "10.25.43.128",
+  "hostPort" : 54321,
+  "aiLevel" : 4,
+  "countdownSeconds" : 30,
+  "stats" : {
+    "AI - 棋圣" : {
+      "wins" : 1,
+      "draws" : 0,
+      "losses" : 91
+    },
+    "ID - 蟋蟀" : {
+      "wins" : 0,
+      "draws" : 0,
+      "losses" : 2
+    },
+    "ID - 秦宇轩" : {
+      "wins" : 0,
+      "draws" : 0,
+      "losses" : 1
+    },
+    "qyx" : {
+      "wins" : 0,
+      "draws" : 0,
+      "losses" : 2
+    },
+    "hhh" : {
+      "wins" : 1,
+      "draws" : 0,
+      "losses" : 2
+    },
+    "hehhe" : {
+      "wins" : 0,
+      "draws" : 0,
+      "losses" : 1
+    },
+    "hehh" : {
+      "wins" : 1,
+      "draws" : 0,
+      "losses" : 0
+    },
+    "marks" : {
+      "wins" : 3,
+      "draws" : 0,
+      "losses" : 2
+    },
+    "mark" : {
+      "wins" : 1,
+      "draws" : 0,
+      "losses" : 3
+    },
+    "John1" : {
+      "wins" : 1,
+      "draws" : 0,
+      "losses" : 1
+    },
+    "John" : {
+      "wins" : 1,
+      "draws" : 0,
+      "losses" : 12
+    },
+    "AI - 菜鸟" : {
+      "wins" : 0,
+      "draws" : 0,
+      "losses" : 3
+    },
+    "sin" : {
+      "wins" : 0,
+      "draws" : 0,
+      "losses" : 2
+    },
+    "sing" : {
+      "wins" : 0,
+      "draws" : 0,
+      "losses" : 1
+    }
+  }
+}

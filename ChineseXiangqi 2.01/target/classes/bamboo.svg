@@ -1,0 +1,92 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 定义竹叶的基础形状，模拟水墨笔触 -->
+    <path id="leaf-a" d="M0,0 C15,-5 40,-2 60,0 C40,5 15,8 0,0 Z" />
+    <path id="leaf-b" d="M0,0 C10,-8 35,-10 50,-5 C35,2 10,3 0,0 Z" />
+    
+    <!-- 渐变色，模拟画面的光影 -->
+    <linearGradient id="bambooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a4a24;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#523015;stop-opacity:0.85" />
+    </linearGradient>
+  </defs>
+
+  <!-- 全局样式 -->
+  <g fill="url(#bambooGradient)" stroke="none">
+
+    <!-- =========== 左侧的竹子 (Left Bamboo) =========== -->
+    <g transform="translate(0, 50)">
+      <!-- 竹枝 -->
+      <path d="M-10,1080 Q100,950 80,750" stroke="#5e3312" stroke-width="3" fill="none"/>
+      <path d="M-5,900 Q60,850 120,880" stroke="#5e3312" stroke-width="2" fill="none"/>
+      
+      <!-- 竹叶簇 -->
+      <g transform="translate(80, 750) rotate(10)">
+        <use href="#leaf-a" transform="rotate(-10) scale(0.8)"/>
+        <use href="#leaf-b" transform="rotate(20) scale(0.7)"/>
+        <use href="#leaf-a" transform="rotate(45) scale(0.6) translate(10,0)"/>
+      </g>
+      <g transform="translate(120, 880) rotate(30)">
+        <use href="#leaf-b" transform="rotate(0) scale(0.7)"/>
+        <use href="#leaf-a" transform="rotate(30) scale(0.6)"/>
+      </g>
+      <g transform="translate(50, 850) rotate(-10)">
+        <use href="#leaf-a" transform="rotate(-15) scale(0.9)"/>
+      </g>
+    </g>
+
+    <!-- =========== 右侧的竹子 (Right Bamboo) =========== -->
+    <g transform="translate(0, 0)">
+      <!-- 主竹干1 -->
+      <path d="M1950,1100 Q1850,800 1900,500 T1800,200" stroke="#5e3312" stroke-width="6" fill="none" opacity="0.9"/>
+      <!-- 主竹干2 -->
+      <path d="M2000,900 Q1920,600 1950,300" stroke="#5e3312" stroke-width="5" fill="none" opacity="0.8"/>
+      
+      <!-- 细枝 -->
+      <path d="M1880,550 Q1780,500 1700,520" stroke="#5e3312" stroke-width="2" fill="none"/>
+      <path d="M1820,350 Q1750,300 1680,330" stroke="#5e3312" stroke-width="2" fill="none"/>
+      <path d="M1900,250 Q1800,200 1750,150" stroke="#5e3312" stroke-width="2" fill="none"/>
+      <path d="M1930,650 Q2000,600 2050,620" stroke="#5e3312" stroke-width="2" fill="none"/>
+
+      <!-- 右侧叶子簇 (模拟垂下的感觉) -->
+      
+      <!-- 顶部簇 -->
+      <g transform="translate(1750, 150) rotate(160)">
+        <use href="#leaf-a" transform="rotate(0) scale(1.2)"/>
+        <use href="#leaf-b" transform="rotate(25) scale(1.0)"/>
+        <use href="#leaf-a" transform="rotate(-15) scale(0.9)"/>
+        <use href="#leaf-b" transform="rotate(45) scale(0.8)"/>
+      </g>
+
+      <!-- 中上部簇 -->
+      <g transform="translate(1680, 330) rotate(150)">
+        <use href="#leaf-a" transform="rotate(0) scale(1.3)"/>
+        <use href="#leaf-a" transform="rotate(30) scale(1.1)"/>
+        <use href="#leaf-b" transform="rotate(-10) scale(1.0)"/>
+        <use href="#leaf-b" transform="rotate(60) scale(0.9)"/>
+      </g>
+
+      <!-- 中部延伸簇 -->
+      <g transform="translate(1700, 520) rotate(140)">
+        <use href="#leaf-a" transform="rotate(5) scale(1.4)"/>
+        <use href="#leaf-b" transform="rotate(35) scale(1.2)"/>
+        <use href="#leaf-a" transform="rotate(-20) scale(1.1)"/>
+      </g>
+      
+      <!-- 靠近竹干的零散叶子 -->
+      <g transform="translate(1850, 450) rotate(100)">
+        <use href="#leaf-b" transform="scale(0.8)"/>
+      </g>
+      <g transform="translate(1920, 700) rotate(170)">
+        <use href="#leaf-a" transform="scale(1.0)"/>
+        <use href="#leaf-b" transform="rotate(30) scale(0.9)"/>
+      </g>
+      
+      <!-- 画面最右侧边缘的叶子 -->
+      <g transform="translate(1900, 300) rotate(10)">
+         <use href="#leaf-a" transform="rotate(-40) scale(0.8)"/>
+      </g>
+
+    </g>
+  </g>
+</svg>
