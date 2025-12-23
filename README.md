@@ -1,6 +1,7 @@
 # 中国象棋项目Proj-Chinesechess
-## 特别鸣谢：感谢我的队友Mark，为项目做出了极其巨大，无与伦比的贡献🌹
 ## 涵盖了基本的中国象棋逻辑和进阶功能
+## 特别鸣谢：感谢我的队友Mark，为项目做出了极其巨大，无与伦比的贡献🌹
+## 特别鸣谢：感谢我的一位好友参与人机对战测试，提供了更新AI的宝贵建议
 ## 开发者主页（按首字母排序）：John:*[John的主页](https://github.com/J0hNSt34nd)*  Mark:*[Mark的主页](https://github.com/Marklzs)*
 ### 未经允许严禁盗用代码！未经允许严禁盗用代码！未经允许严禁盗用代码！
 ### You mustn't plagiarize this code as your own work!!!
