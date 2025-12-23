@@ -1,5 +1,7 @@
 # 中国象棋项目Proj-Chinesechess
 ## 涵盖了基本的中国象棋逻辑和进阶功能
+### 未经允许严禁盗用代码！未经允许严禁盗用代码！未经允许严禁盗用代码！:no_entry_sign:
+### You mustn't plagiarize this code as your own work!!!:no_entry_sign:
 
 ***
 
